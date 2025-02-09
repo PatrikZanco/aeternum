@@ -39,9 +39,9 @@ export default function ContaPhotoPost() {
   return (
     <section className={`${styles.photoPost} animeLeft`}>
       <form action={action}>
-        <Input label="Nome" name="nome" type="text" />
-        <Input label="Peso" name="peso" type="number" />
-        <Input label="Idade" name="idade" type="number" />
+        <Input label="Título" name="nome" type="text" />
+        <Input label="Legenda" name="peso" type="text" />
+        <Input label="Data" name="idade" type="date" />
         <input
           onChange={handleImgChange}
           type="file"
